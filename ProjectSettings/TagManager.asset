@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Enemy
+  - Baby
+  - Hole
+  - Plank
+  - PlankRemplace
   layers:
   - Default
   - TransparentFX
