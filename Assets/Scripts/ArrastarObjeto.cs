@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class ArrastarObjeto : MonoBehaviour
 {
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     private void OnMouseDrag()
     {
