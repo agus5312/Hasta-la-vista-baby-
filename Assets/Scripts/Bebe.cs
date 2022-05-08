@@ -8,7 +8,7 @@ public class Bebe : MonoBehaviour
     {
         if (collision.tag == "Enemy")
         {
-            Debug.Log("perdiste");
+            FindObjectOfType<GameOver>().GameOverActive();
         }
     }
     
