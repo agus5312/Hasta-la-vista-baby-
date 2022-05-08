@@ -13,6 +13,8 @@ public class EnemyFallObject : MonoBehaviour
     public bool isGrabbing;
     public bool realease;
     bool active;
+    public bool activeKill;
+    public float timeToDesactivateKill;
 
     public GameObject placeToFall;
     public GameObject objectToKillBaby;
@@ -22,6 +24,7 @@ public class EnemyFallObject : MonoBehaviour
         realease = false;
         originalScale = 1;
         objectToKillBaby.SetActive(false);
+        activeKill = true;
     }
 
     void Update()
@@ -50,7 +53,16 @@ public class EnemyFallObject : MonoBehaviour
             
 
         if (originalScale <= smallScale)
-            objectToKillBaby.SetActive(true);
+        {
+            
+            if(activeKill)
+            {
+                objectToKillBaby.SetActive(true);
+                StartCoroutine("DesactivateKillBaby");
+            }
+            
+        }
+           
     
     }
 
@@ -65,6 +77,13 @@ public class EnemyFallObject : MonoBehaviour
     {
         isGrabbing = false;
         realease = true;
+    }
+
+    IEnumerator DesactivateKillBaby()
+    {
+        yield return new WaitForSeconds(timeToDesactivateKill * Time.deltaTime);
+        activeKill = false;
+        objectToKillBaby.SetActive(false);
     }
 
 }
