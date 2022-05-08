@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class NextLevel : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class NextLevel : MonoBehaviour
     IEnumerator ChangeToNextLevel()
     {
         yield return new WaitForSeconds(timeToChangeLevel);
+        SceneManager.LoadScene("lvl select");
         //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         Debug.Log("Next Level");
     }

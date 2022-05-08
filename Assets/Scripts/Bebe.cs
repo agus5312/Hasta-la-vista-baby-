@@ -10,7 +10,13 @@ public class Bebe : MonoBehaviour
         {
             FindObjectOfType<GameOver>().GameOverActive();
         }
+
+        if(collision.CompareTag("Win"))
+        {
+            FindObjectOfType<Win>().WinActive();
+        }
     }
-    
-    
+
+   
+
 }
