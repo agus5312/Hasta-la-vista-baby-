@@ -3,18 +3,7 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags:
-  - Enemy
-<<<<<<< Updated upstream
-  - Baby
-  - Hole
-  - Plank
-  - PlankRemplace
-=======
-  - ParedHorizontal
-  - ParedVertical
-  - Trapo
->>>>>>> Stashed changes
+  tags: []
   layers:
   - Default
   - TransparentFX
