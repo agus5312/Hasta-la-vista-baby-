@@ -7,7 +7,7 @@ public class Cable : MonoBehaviour
     BoxCollider2D colision;
     SpriteRenderer spray;
     public Sprite nuevo;
-    GameObject Cinta;
+    
     public GameObject electricidad;
     int contador;
 
@@ -15,7 +15,7 @@ public class Cable : MonoBehaviour
     {
         colision = GetComponent<BoxCollider2D>();
         spray = GetComponent<SpriteRenderer>();
-        Cinta = GameObject.FindGameObjectWithTag("Cinta");
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,7 +26,7 @@ public class Cable : MonoBehaviour
             {
                 electricidad.SetActive(false);
                 Component.Destroy(colision);
-                Cinta.SetActive(false);
+                
                 spray.sprite = nuevo;
             }
         }
