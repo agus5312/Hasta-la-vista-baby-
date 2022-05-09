@@ -1147,7 +1147,7 @@ MonoBehaviour:
     showVertexPathOptions: 1
     showNormals: 0
     showNormalsHelpInfo: 0
-    tabIndex: 0
+    tabIndex: 1
   initialized: 1
 --- !u!4 &1480107757
 Transform:

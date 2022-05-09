@@ -61,6 +61,7 @@ GameObject:
   - component: {fileID: 1787472824307565051}
   - component: {fileID: 1787472824307565052}
   - component: {fileID: 1787472824307565048}
+  - component: {fileID: 5844707077635180515}
   m_Layer: 0
   m_Name: Gato
   m_TagString: Untagged
@@ -198,3 +199,17 @@ MonoBehaviour:
   velX: 3
   VelY: -4
   restante: 5
+--- !u!114 &5844707077635180515
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1787472824307565053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c1323ff93f64d4ea25132eaeffd7f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  visionRange: 5
+  speed: 5
