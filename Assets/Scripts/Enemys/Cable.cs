@@ -9,6 +9,7 @@ public class Cable : MonoBehaviour
     public Sprite nuevo;
     GameObject Cinta;
     public GameObject electricidad;
+    int contador;
 
     private void Start()
     {
@@ -20,10 +21,14 @@ public class Cable : MonoBehaviour
     {
         if (collision.CompareTag("Cinta"))
         {
-            electricidad.SetActive(false);
-            Component.Destroy(colision);
-            Cinta.SetActive(false);
-            spray.sprite = nuevo;
+            contador += 1;
+            if (contador >= 5)
+            {
+                electricidad.SetActive(false);
+                Component.Destroy(colision);
+                Cinta.SetActive(false);
+                spray.sprite = nuevo;
+            }
         }
     }
     

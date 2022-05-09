@@ -9,6 +9,11 @@ TagManager:
   - Plank
   - Hole
   - Win
+  - Trapo
+  - ParedVertical
+  - ParedHorizontal
+  - Cinta
+  - Toma
   layers:
   - Default
   - TransparentFX
