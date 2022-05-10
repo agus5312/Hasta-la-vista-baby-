@@ -189,9 +189,10 @@ GameObject:
   - component: {fileID: 2693780508544195506}
   - component: {fileID: 2693780508544195504}
   - component: {fileID: 2693780508544195507}
+  - component: {fileID: 2496593927482079103}
   m_Layer: 0
   m_Name: Gato
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -279,7 +280,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 0.5
+  m_Radius: 0.6
 --- !u!114 &2693780508544195507
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -298,9 +299,31 @@ MonoBehaviour:
   - {fileID: 2693780508326886093}
   - {fileID: 2693780508510667911}
   - {fileID: 2693780508768481874}
+  pelos: {fileID: 0}
   bebe: {fileID: 0}
   vel: 1
   clicksMax: 2
+--- !u!50 &2496593927482079103
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2693780508544195500}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2693780508768481874
 GameObject:
   m_ObjectHideFlags: 0

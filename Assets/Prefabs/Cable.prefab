@@ -393,13 +393,57 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 324682523390592997}
     m_Modifications:
+    - target: {fileID: 4811082311676579132, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811082311676579132, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811082311676579132, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4811082311676579132, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5244870090915697567, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
       propertyPath: m_Name
       value: Electricidad
       objectReference: {fileID: 0}
+    - target: {fileID: 7261135974591730856, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7261135974591730856, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7261135974591730856, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7261135974591730856, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8763032742350175564, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763032742350175564, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763032742350175564, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763032742350175564, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8763032742350175564, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -440,6 +484,10 @@ PrefabInstance:
     - target: {fileID: 8763032742350175564, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8763032742350175564, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 329d615217a8bdc4abadf9311f9e93d1, type: 3}
