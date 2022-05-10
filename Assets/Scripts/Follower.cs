@@ -13,5 +13,6 @@ public class Follower : MonoBehaviour
         transform.position = pathCreator.path.GetPointAtDistance(distanceTravelled);
         Quaternion rotar = pathCreator.path.GetRotationAtDistance(distanceTravelled);
         transform.rotation = new Quaternion(0, 0, rotar.z, rotar.w);
+        transform.Rotate(new Vector3(0,0,90));
     }
 }
