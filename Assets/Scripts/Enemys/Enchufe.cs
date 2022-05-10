@@ -4,23 +4,14 @@ using UnityEngine;
 
 public class Enchufe : MonoBehaviour
 {
-    public GameObject PartePeligrosa;
-    public GameObject Chispas;
-    Component colider;
+    public GameObject[] cablePelado;
     public float limitecable;
-    private void Start()
-    {
-        colider = PartePeligrosa.GetComponent<BoxCollider2D>();
-    }
-    //private void OnMouseDown()
-    //{
-    //    Component.Destroy(colider);
-    //    Chispas.SetActive(false);
-    //}
-
     public SpriteRenderer finalCable;
 
-    
+    private void Start()
+    {
+    }
+
     private void OnMouseDrag()
     {
         ActualizarPosicion();
@@ -60,10 +51,12 @@ public class Enchufe : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(collision.CompareTag("Toma"))
+        if (collision.CompareTag("Toma"))
         {
-            Component.Destroy(colider);
-            Chispas.SetActive(false);
+            for (int i = 0; i < cablePelado.Length; i++)
+            {
+            Destroy(cablePelado[i]);
+            }
         }
     }
 }
