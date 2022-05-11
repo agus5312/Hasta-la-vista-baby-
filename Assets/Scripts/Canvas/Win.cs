@@ -21,4 +21,9 @@ public class Win : MonoBehaviour
     {
         SceneManager.LoadScene("MainMenu");
     }
+
+    public void NextLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
 }
