@@ -6,16 +6,30 @@ public class Pala : MonoBehaviour
 {
     public GameObject palaConTierra;
     public GameObject palaSinTierra;
+    float timer;
+    bool active;
     
     void Start()
     {
         palaConTierra.SetActive(false);
+        active = false;
     }
 
     
     void Update()
     {
-        
+        if(active)
+        {
+            timer -= Time.deltaTime;
+
+            if(timer <= 0)
+            {
+                palaConTierra.SetActive(false);
+                palaSinTierra.SetActive(true);
+                active = false;
+            }
+            
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -28,8 +42,8 @@ public class Pala : MonoBehaviour
 
         if (collision.CompareTag("Hole"))
         {
-            palaConTierra.SetActive(false);
-            palaSinTierra.SetActive(true);
+            active = true;
+            timer = 0.2f;
         }
 
     }
