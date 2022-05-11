@@ -30,7 +30,7 @@ public class Gato : MonoBehaviour
             transform.up = wayPoints[posicion].transform.position - transform.position;
             transform.position += transform.up * vel * Time.deltaTime;
 
-            if(transform.position == wayPoints[posicion].transform.position)
+            if (Vector2.Distance(transform.position, wayPoints[posicion].transform.position) <= 0.5f)
             {
                 canMove = false;
                 mirarBebe = true;
