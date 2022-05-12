@@ -1175,6 +1175,10 @@ PrefabInstance:
       value: Bebe
       objectReference: {fileID: 0}
     - target: {fileID: 1902319213040687562, guid: 2d9f3dfe2c885ae4485ab1422a7ab513, type: 3}
+      propertyPath: speed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1902319213040687562, guid: 2d9f3dfe2c885ae4485ab1422a7ab513, type: 3}
       propertyPath: pathCreator
       value: 
       objectReference: {fileID: 1015177037}
