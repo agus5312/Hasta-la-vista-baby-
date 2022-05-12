@@ -465,13 +465,35 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2816085519398496108, guid: 139d9a39d111a544f905831f9d8b0e73, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 139d9a39d111a544f905831f9d8b0e73, type: 3}
 --- !u!212 &3779244438828776233 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2291758262263264728, guid: 139d9a39d111a544f905831f9d8b0e73, type: 3}
   m_PrefabInstance: {fileID: 3152351739274252017}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &4316687103950825764 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1177853174102976469, guid: 139d9a39d111a544f905831f9d8b0e73, type: 3}
+  m_PrefabInstance: {fileID: 3152351739274252017}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6222136369079336718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4316687103950825764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2122bca8086deb5488bbd13e9c36ff85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cablePelado:
+  - {fileID: 324682523390592998}
+  limitecable: 3
+  finalCable: {fileID: 3779244438828776233}
 --- !u!4 &6487773950726069705 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8193828092138591032, guid: 139d9a39d111a544f905831f9d8b0e73, type: 3}

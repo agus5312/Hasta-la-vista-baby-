@@ -5096,6 +5096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bee
       objectReference: {fileID: 0}
+    - target: {fileID: 1625216542232490431, guid: 9ffb5c8774294374584ec058b40b4318, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9ffb5c8774294374584ec058b40b4318, type: 3}
 --- !u!4 &1844602645 stripped

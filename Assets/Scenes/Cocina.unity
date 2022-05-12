@@ -3178,16 +3178,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2738800178803138717, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
+      propertyPath: m_Size.x
+      value: 1.3415616
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738800178803138717, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.17078082
+      objectReference: {fileID: 0}
+    - target: {fileID: 2738800178803138717, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
       propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2934546566589504907, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.51
+      value: -1.41
       objectReference: {fileID: 0}
     - target: {fileID: 2934546566589504907, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3779244438828776233, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
       propertyPath: m_Size.x
@@ -3223,11 +3231,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6726865507708111285, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 10.132999
       objectReference: {fileID: 0}
     - target: {fileID: 6726865507708111285, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.49
+      value: 2.4233
       objectReference: {fileID: 0}
     - target: {fileID: 6726865507708111285, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3269,7 +3277,8 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 6222136369079336718, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
 --- !u!4 &1185851375 stripped
 Transform:
@@ -3677,6 +3686,22 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8571699999652686107, guid: 981cc043406923648826f70a06b81bd9, type: 3}
+      propertyPath: m_Size.x
+      value: 0.11115551
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571699999652686107, guid: 981cc043406923648826f70a06b81bd9, type: 3}
+      propertyPath: m_Size.y
+      value: 0.096128464
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571699999652686107, guid: 981cc043406923648826f70a06b81bd9, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.044941604
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571699999652686107, guid: 981cc043406923648826f70a06b81bd9, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.2403431
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571699999652686107, guid: 981cc043406923648826f70a06b81bd9, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
@@ -3691,6 +3716,28 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8571699999652686106, guid: 981cc043406923648826f70a06b81bd9, type: 3}
   m_PrefabInstance: {fileID: 1357916617}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1363159648 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8737701493544835704, guid: bcd4da955844afe47bd90b653e68d05d, type: 3}
+  m_PrefabInstance: {fileID: 1185851374}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1363159652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1363159648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2122bca8086deb5488bbd13e9c36ff85, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cablePelado:
+  - {fileID: 1185851378}
+  - {fileID: 1434980160}
+  limitecable: 1.6
+  finalCable: {fileID: 1185851376}
 --- !u!1 &1434980160
 GameObject:
   m_ObjectHideFlags: 0
