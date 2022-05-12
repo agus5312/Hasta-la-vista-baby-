@@ -11,8 +11,8 @@ public class Pala : MonoBehaviour
 
 
     public AudioSource soundChanel;
-    public AudioClip putSand;
     public AudioClip takeSand;
+    public AudioClip putSand;
 
     void Start()
     {

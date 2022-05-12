@@ -264,6 +264,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d289f511001f824590c7f51de18e815, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundChanel: {fileID: 0}
+  putSand: {fileID: 8300000, guid: d743cac4e0c9726429f0e28118997e14, type: 3}
 --- !u!1 &5764578600165242233
 GameObject:
   m_ObjectHideFlags: 0

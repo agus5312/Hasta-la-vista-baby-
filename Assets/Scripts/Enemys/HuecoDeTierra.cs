@@ -7,6 +7,9 @@ public class HuecoDeTierra : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Pala"))
-            Destroy(gameObject);
+        {
+            Destroy(gameObject, 0.1f);
+        }
+            
     }
 }

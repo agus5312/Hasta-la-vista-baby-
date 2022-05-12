@@ -10,8 +10,8 @@ GameObject:
   m_Component:
   - component: {fileID: 7723261533428932732}
   - component: {fileID: 2357676308713589517}
-  - component: {fileID: 6210743327595394801}
   - component: {fileID: 7554368173527919}
+  - component: {fileID: 7781845758682487479}
   m_Layer: 0
   m_Name: Plank
   m_TagString: Plank
@@ -60,19 +60,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.63}
   m_EdgeRadius: 0
---- !u!114 &6210743327595394801
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2876969325785722657}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 10d11d0dcc8bb2d4f8ccf10ce66430ed, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  otro: Hole
 --- !u!50 &7554368173527919
 Rigidbody2D:
   serializedVersion: 4
@@ -94,6 +81,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7781845758682487479
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2876969325785722657}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f7bef324edf53248a724dc78200bb5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  otro: Hole
 --- !u!1 &4067812788774086097
 GameObject:
   m_ObjectHideFlags: 0
