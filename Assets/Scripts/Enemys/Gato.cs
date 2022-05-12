@@ -14,6 +14,11 @@ public class Gato : MonoBehaviour
     bool canMove = false;
     bool mirarBebe = true;
 
+
+    [SerializeField] Animator anim;
+    public AudioSource soundChanel;
+    public AudioClip maullido;
+
     private void Start()
     {
         clicksActuales = clicksMax;
@@ -26,6 +31,7 @@ public class Gato : MonoBehaviour
         }
         if (canMove)
         {
+            anim.SetBool("isWalking", true);
             mirarBebe = false;
             transform.up = wayPoints[posicion].transform.position - transform.position;
             transform.position += transform.up * vel * Time.deltaTime;
@@ -37,6 +43,9 @@ public class Gato : MonoBehaviour
                 posicion++;
             }
         }
+
+        if(!canMove)
+            anim.SetBool("isWalking", false);
     }
     private void OnMouseDown()
     {
@@ -44,6 +53,8 @@ public class Gato : MonoBehaviour
         if (!canMove)
         {
             Instantiate(pelos, gameObject.transform);
+            soundChanel.clip = maullido;
+            soundChanel.Play();
         }
         if (posicion == wayPoints.Length)
         {
