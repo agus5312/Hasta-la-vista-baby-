@@ -8,6 +8,7 @@ public class Pala : MonoBehaviour
     public GameObject palaSinTierra;
     float timer;
     bool active;
+    bool with;
 
 
     public AudioSource soundChanel;
@@ -23,6 +24,7 @@ public class Pala : MonoBehaviour
     
     void Update()
     {
+
         if(active)
         {
             timer -= Time.deltaTime;
@@ -35,7 +37,7 @@ public class Pala : MonoBehaviour
                 palaSinTierra.SetActive(true);
                 active = false;
             }
-            
+
         }
     }
 
