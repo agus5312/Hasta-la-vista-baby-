@@ -9,6 +9,7 @@ public class EnemyPatrulla : MonoBehaviour
     public float speedRotation;
     public Transform[] wayPoints;
     public int index;
+
     void Start()
     {
         index = 0;

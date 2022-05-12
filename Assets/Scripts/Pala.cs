@@ -8,7 +8,12 @@ public class Pala : MonoBehaviour
     public GameObject palaSinTierra;
     float timer;
     bool active;
-    
+
+
+    public AudioSource soundChanel;
+    public AudioClip putSand;
+    public AudioClip takeSand;
+
     void Start()
     {
         palaConTierra.SetActive(false);
@@ -24,6 +29,8 @@ public class Pala : MonoBehaviour
 
             if(timer <= 0)
             {
+                soundChanel.clip = putSand;
+                soundChanel.Play();
                 palaConTierra.SetActive(false);
                 palaSinTierra.SetActive(true);
                 active = false;
@@ -36,6 +43,8 @@ public class Pala : MonoBehaviour
     {
         if (collision.CompareTag("Tierra"))
         {
+            soundChanel.clip = takeSand;
+            soundChanel.Play();
             palaConTierra.SetActive(true);
             palaSinTierra.SetActive(false);
         }
