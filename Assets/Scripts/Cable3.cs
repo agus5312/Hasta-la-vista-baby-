@@ -10,8 +10,10 @@ public class Cable3 : MonoBehaviour
     public GameObject origen;
     public GameObject cablesito;
 
+    public AudioSource soundChanel;
+    public AudioClip destapar;
 
-        private void Start()
+    private void Start()
         {
         ActualizarTamaño();
         }
@@ -58,7 +60,10 @@ public class Cable3 : MonoBehaviour
         {
             if (collision.CompareTag("Toma"))
             {
-                for (int i = 0; i < cablePelado.Length; i++)
+            soundChanel.clip = destapar;
+            soundChanel.Play();
+
+            for (int i = 0; i < cablePelado.Length; i++)
                 {
                     Destroy(cablePelado[i]);
                 }

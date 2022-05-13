@@ -223,6 +223,7 @@ MonoBehaviour:
   anim: {fileID: 0}
   soundChanel: {fileID: 3598218690796568110}
   maullido: {fileID: 8300000, guid: d7ef97b08e92f89499c4420e36ebf96b, type: 3}
+  attack: {fileID: 8300000, guid: e78e627fe56a9cd40be9dd73a21b36fe, type: 3}
 --- !u!50 &2496593927482079103
 Rigidbody2D:
   serializedVersion: 4

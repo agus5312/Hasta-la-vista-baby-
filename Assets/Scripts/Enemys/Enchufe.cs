@@ -8,6 +8,8 @@ public class Enchufe : MonoBehaviour
     public float limitecable;
     public SpriteRenderer finalCable;
 
+    
+
     private void Start()
     {
     }
@@ -53,6 +55,7 @@ public class Enchufe : MonoBehaviour
     {
         if (collision.CompareTag("Toma"))
         {
+            
             for (int i = 0; i < cablePelado.Length; i++)
             {
             Destroy(cablePelado[i]);

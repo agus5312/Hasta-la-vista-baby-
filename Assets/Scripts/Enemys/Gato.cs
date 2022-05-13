@@ -18,6 +18,7 @@ public class Gato : MonoBehaviour
     [SerializeField] Animator anim;
     public AudioSource soundChanel;
     public AudioClip maullido;
+    public AudioClip attack;
 
     private void Start()
     {
@@ -64,6 +65,15 @@ public class Gato : MonoBehaviour
         {
             canMove = true;
             clicksActuales = clicksMax;
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
+        {
+            soundChanel.clip = attack;
+            soundChanel.Play();
         }
     }
 }
