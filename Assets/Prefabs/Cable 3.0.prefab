@@ -577,6 +577,7 @@ MonoBehaviour:
   finalCable: {fileID: 8171447187844166454}
   origen: {fileID: 8171447186590783666}
   cablesito: {fileID: 8171447187844166448}
+  cableObjeto: {fileID: 8171447187594012492}
   soundChanel: {fileID: 8705425648129137507}
   destapar: {fileID: 8300000, guid: 6771ac71e308ffd43a96fbd5d05afe39, type: 3}
 --- !u!61 &8171447188293419980

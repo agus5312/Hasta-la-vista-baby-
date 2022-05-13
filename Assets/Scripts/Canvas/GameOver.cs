@@ -11,12 +11,9 @@ public class GameOver : MonoBehaviour
     {
         gameOverCanvas = GetComponent<Canvas>();
         gameOverCanvas.enabled = false;
+        Time.timeScale = 1f;
     }
 
-    void update()
-    {
-        
-    }
     
     public void GameOverActive()
     {
@@ -29,6 +26,7 @@ public class GameOver : MonoBehaviour
     public void TryAgain()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 0);
+        
     }
 
     public void ReturnToMainMenu()

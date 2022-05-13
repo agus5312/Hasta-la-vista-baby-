@@ -9,7 +9,7 @@ public class Cable3 : MonoBehaviour
         public SpriteRenderer finalCable;
     public GameObject origen;
     public GameObject cablesito;
-
+    public GameObject cableObjeto;
     public AudioSource soundChanel;
     public AudioClip destapar;
 
@@ -62,6 +62,7 @@ public class Cable3 : MonoBehaviour
             {
             soundChanel.clip = destapar;
             soundChanel.Play();
+            Destroy(cableObjeto, 0.1f);
 
             for (int i = 0; i < cablePelado.Length; i++)
                 {
