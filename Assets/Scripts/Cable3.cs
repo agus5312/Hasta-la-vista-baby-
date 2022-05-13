@@ -53,7 +53,7 @@ public class Cable3 : MonoBehaviour
             Vector2 puntoOrigen = origen.transform.position;
 
             float distancia = Vector2.Distance(posicionActual, puntoOrigen);
-            finalCable.size = new Vector2(distancia, finalCable.size.y);
+            finalCable.size = new Vector2(distancia + 0.1f, finalCable.size.y);
         }
 
         private void OnTriggerExit2D(Collider2D collision)

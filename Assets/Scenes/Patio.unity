@@ -1355,6 +1355,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vueltasNecesarias: 3
+  soundChanel: {fileID: 0}
+  cinta: {fileID: 0}
 --- !u!61 &767118406
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2004,11 +2006,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 8171447186590783667, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.065
+      value: 0.806
       objectReference: {fileID: 0}
     - target: {fileID: 8171447186590783667, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.005
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8171447186863397353, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
       propertyPath: m_LocalScale.x
@@ -2080,7 +2082,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8171447187844166449, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.25
+      value: 0.83
       objectReference: {fileID: 0}
     - target: {fileID: 8171447187844166449, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2116,11 +2118,11 @@ PrefabInstance:
       objectReference: {fileID: 767118403}
     - target: {fileID: 8171447188293419982, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.812
+      value: -1.756
       objectReference: {fileID: 0}
     - target: {fileID: 8171447188293419982, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ff2620a0f7ccfb945b3b31f53976696b, type: 3}
