@@ -5,20 +5,14 @@ using UnityEngine.SceneManagement;
 
 public class Win : MonoBehaviour
 {
-    Canvas winCanvas;
-    bool active;
     void Start()
     {
-        winCanvas = GetComponent<Canvas>();
-        winCanvas.enabled = false;
         Time.timeScale = 1f;
     }
 
    public void WinActive()
     {
-        winCanvas.enabled = true;
-        active = !active;
-        Time.timeScale = (active) ? 0 : 1f;
+        Time.timeScale = 0;
     }
 
     public void ReturnToMainMenu()
