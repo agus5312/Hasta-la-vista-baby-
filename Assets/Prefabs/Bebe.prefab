@@ -120,8 +120,8 @@ MonoBehaviour:
   soundChanel: {fileID: 5326395505639927307}
   risas: {fileID: 8300000, guid: 48ebe2dbe8095164ab4c1aaedd1c6473, type: 3}
   timer: 0
-  randomN: 0.1
-  randomP: 1.5
+  randomN: 5
+  randomP: 20
 --- !u!50 &1902319213040687560
 Rigidbody2D:
   serializedVersion: 4
