@@ -8,6 +8,10 @@ public class MainMenu : MonoBehaviour
     public Canvas optionsCanvas;
     public Canvas creditsCanvas;
 
+    private void Awake()
+    {
+        Application.targetFrameRate = 60;
+    }
     public void Start()
     {
         optionsCanvas.enabled = false;
