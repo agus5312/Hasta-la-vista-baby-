@@ -11,4 +11,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Patio.unity
     guid: 49c54ad7dc9bd0e4090fa37737709eaa
+  - enabled: 1
+    path: Assets/Scenes/Seleccion de nivel.unity
+    guid: ea5ce4856e3b543428b288c2e07eb210
+  - enabled: 1
+    path: Assets/Scenes/Cocina.unity
+    guid: 61d370bda464e5949a85a5904e990843
+  - enabled: 1
+    path: Assets/Scenes/Entrada.unity
+    guid: 492c44305cdae274f8cd1914d2dfb129
+  - enabled: 1
+    path: Assets/Scenes/Jardin.unity
+    guid: 3f9eb078168c4604e9141c710772cde9
+  - enabled: 1
+    path: Assets/Scenes/Living.unity
+    guid: b6010b6a18170eb4581282f882f5410a
   m_configObjects: {}

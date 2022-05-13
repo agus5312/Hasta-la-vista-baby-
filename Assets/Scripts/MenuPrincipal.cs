@@ -6,12 +6,15 @@ using UnityEngine.UI;
 
 public class MenuPrincipal : MonoBehaviour
 {
+    public GameObject botonprev;
+    public GameObject botonnext;
     public string [] niveles;
     public string[] nombresNivel;
     int i;
     public Text nombre;
     private void Start()
     {
+        botonprev.SetActive(false);
         i = 0;
         nombre.text = nombresNivel[i];
     }
@@ -22,20 +25,33 @@ public class MenuPrincipal : MonoBehaviour
 
     public void Next()
     {
-        if(i != niveles.Length -1)
+        if (i == niveles.Length - 2)
         {
-            i++;
-            nombre.text = nombresNivel[i];
+            botonnext.SetActive(false);
         }
+        if (i == 0)
+        {
+            botonprev.SetActive(true);
+        }
+        i++;
+            nombre.text = nombresNivel[i];
+        
     }
 
     public void Previous()
     {
-        if(i != 0)
+        if (i == niveles.Length -1)
         {
-            i--;
-            nombre.text = nombresNivel[i];
+            botonnext.SetActive(true);
         }
+        if (i == 1)
+        {
+            botonprev.SetActive(false);
+        }
+
+        i--;
+            nombre.text = nombresNivel[i];
+        
     }
 
     public void Menu()

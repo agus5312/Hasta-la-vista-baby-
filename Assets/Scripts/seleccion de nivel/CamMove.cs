@@ -41,7 +41,7 @@ public class CamMove : MonoBehaviour
         if (mOM)
         {
             lvl++;
-            if (lvl == 1 || lvl == 6)
+            if (lvl == 1 || lvl == 3 || lvl == 6)
             {
                 lvl++;
                 velM = vel * 2;
@@ -50,7 +50,7 @@ public class CamMove : MonoBehaviour
         else
         {
             lvl--;
-            if (lvl == 1 || lvl == 6)
+            if (lvl == 1 || lvl == 3 || lvl == 6)
             {
                 lvl--;
                 velM = vel * 2;
