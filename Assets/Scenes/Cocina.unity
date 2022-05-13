@@ -6146,35 +6146,35 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2693780507841402241, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.44
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 2693780507841402241, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.71
+      value: -4.76
       objectReference: {fileID: 0}
     - target: {fileID: 2693780508326886092, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6
+      value: -0.99
+      objectReference: {fileID: 0}
+    - target: {fileID: 2693780508326886092, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.72
       objectReference: {fileID: 0}
     - target: {fileID: 2693780508510667910, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.98
+      value: -0.98
       objectReference: {fileID: 0}
     - target: {fileID: 2693780508510667910, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.06
-      objectReference: {fileID: 0}
-    - target: {fileID: 2693780508544195504, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
+      value: -4.46
       objectReference: {fileID: 0}
     - target: {fileID: 2693780508544195505, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.44
+      value: 1.88
       objectReference: {fileID: 0}
     - target: {fileID: 2693780508544195505, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.71
+      value: -4.63
       objectReference: {fileID: 0}
     - target: {fileID: 2693780508544195507, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: bebe
@@ -6184,6 +6184,10 @@ PrefabInstance:
       propertyPath: pelos
       value: 
       objectReference: {fileID: 7623687220085998722, guid: 3d328b853733e304593cda45f5d9d270, type: 3}
+    - target: {fileID: 2693780508544195507, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
+      propertyPath: wayPoints.Array.size
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 2693780508768481873, guid: de23345c04a1c3a48851af48a82e20ca, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.94
