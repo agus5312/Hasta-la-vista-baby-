@@ -16,6 +16,7 @@ public class MainMenu : MonoBehaviour
     {
         optionsCanvas.enabled = false;
         creditsCanvas.enabled = false;
+        Time.timeScale = 1f;
     }
     public void Play()
     {

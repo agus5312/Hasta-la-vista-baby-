@@ -965,7 +965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1236,15 +1236,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.81
+      value: -5.56
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.99
+      value: 3.82
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1444,15 +1444,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.81
+      value: -0.89
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.99
+      value: 3.82
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4067812788774086096, guid: 7f6fb7d97ac688c458dedd6eac6b1601, type: 3}
       propertyPath: m_LocalRotation.w
