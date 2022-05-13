@@ -124,7 +124,7 @@ Transform:
   m_GameObject: {fileID: 2693780508544195500}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -6.97, y: -3.49, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 2, y: 2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2693780509362584916}
@@ -170,7 +170,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 2
   m_Sprite: {fileID: 21300000, guid: a58907d487a418b43b6875f211f4d3c7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -220,7 +220,7 @@ MonoBehaviour:
   bebe: {fileID: 0}
   vel: 1
   clicksMax: 3
-  anim: {fileID: 0}
+  anim: {fileID: 4756815403100922361}
   soundChanel: {fileID: 3598218690796568110}
   maullido: {fileID: 8300000, guid: d7ef97b08e92f89499c4420e36ebf96b, type: 3}
   attack: {fileID: 8300000, guid: e78e627fe56a9cd40be9dd73a21b36fe, type: 3}
